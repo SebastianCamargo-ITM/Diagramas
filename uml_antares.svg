@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1717" version="1.1" width="1837">
+  <defs>
+    <linearGradient id="255_255_255_235_235_255" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255, 255, 255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(235, 235, 255);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="255_255_255_238_247_252" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255, 255, 255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(238, 247, 252);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="255_255_255_248_247_241" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255, 255, 255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(248, 247, 241);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="255_255_255_255_245_235" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255, 255, 255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255, 245, 235);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="annotation_gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255, 255, 255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(223, 223, 223);stop-opacity:1"/>
+    </linearGradient>
+    <g id="icon_defs">
+      <image height="16" id="fk_icon" transform="scale(0.64)" width="16" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAQhJREFUOI2lk0FKw0AYhb9/SDPNtAvBnSAewRv0EN0XkS4MdSOFQI+QIhS6qNRFQejeQ3gcN7GBJhIX4yKmEJvAQB4MAz8zjzcfb8RaSxepTrcBb7+dNkaYhDtxMgAYjTe14cf7o3MClRX+2fBY+LQlO0vwlQVoX4EFwQLCIQsY+IVTAi85GowvgCBYLEKSG64uDuy3U1uxaEuk0u8B/Z6i3xP0355mwxPEZTw/XRyNN7UF4OU/modo/c+35DIJd7KM53YWxfb2upmVuBRpFsX25vKTuzCusXp7XbgV6eV5IRUroxVGKwKtSHJT9sBFFatSZcfSbOj2BID7p1XjQWeDNnX+TJ0NfgFOe1t5slQQ5wAAAABJRU5ErkJggg==" y="0"/>
+      <image height="16" id="pk_icon" transform="scale(0.64)" width="16" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAIFJREFUOI3NktENwCAIRI/GWelMMlM70/XHFjVqTP1oLyFR0AcBhCRWtC39/gUgPCcTb4ZSpgkkwQi6ItMdMxZKnKUKYllRS6nKDGCA7Q7QA8DZB5gQSgnt6D5MnqsEaJ6heqmV/260NzGzuomx4ychzyqPxnjHGuN1wEt9v8rLgAu5KYHtVUKZggAAAABJRU5ErkJggg==" y="0"/>
+      <image height="14" id="index_icon" transform="scale(0.64)" width="14" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAWtJREFUKJF9kr9LW1EUxz/n5tVQ6GBjeMWMhfbfKAhdhEIGB/+GQBWnKIW0VAuZqsVV90CHVsFRccveqVTNWI0oDlaavvfu+3bIj1f6Ei8c7nDO537P+Z5rknhZ/yxnhnNGUHAAPJst8bH2wphwAoDw+VNmKiFTznj4oF979/10EpOBlz86XJ10cM4RuIFipXQviCTaBytKU8n/E+2DFUliUgQA3js8IGA4lKzI0YcnAph7083PKonjr3X1EqnnszjcCJXGF0qjrg43wpx6ABD5Ap6B5OBKvZD/Tb8jjTcn9gHJIGdDMBX4X5j6j4wFoyTg/1wcC/V+IiBJ8qaOFIdg+205cym5BYRPxf5qWQa8al7ZCLz7U+Qy6oNRnFJdfg8Y6p2DwXztHYaxt9UYKZokdne2Ro0WCgGPvjWoLq9lRcCXT00WNq+ztUxacGtpWvHZuuKzdbWWpnPrMCnv2PC0Xj8WwOL2Te4D/AV30/dJgbApHgAAAABJRU5ErkJggg==" y="0"/>
+      <image height="14" id="table_icon" transform="scale(0.64)" width="14" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAARJJREFUKJGdkj1OxDAQhb/x2E60oaThCEiIlmJ7WkS1XIE70CB6hLTFStwA7kGBREVBwwG4AIEkCwxFHJytiPY11ljvR29sMTO2gQc4WFwbzmOioBFcBA3gIuYLRCO4gIkHp7zczMUD/OwdcXayT1RHGYRZUKrCUQXHTlSqQpkFoQzC6eVDTnRvj9zfPoH43lmLPlEL0IhpQCRgGkA0Cy+OXzlcrCZ1e747B+a9cMBunL4cB9B++/94fxi4HqDpYnYREOtPgOG1JM0D1wN8dGU/SBIkEmODJK7bMgvfm+TiEmNcxDaN6q7IwrobuQibkHQlYAJ1OxJ+rnOiWSaO0y11b9ajjt2XZ3m1ZBr6rcq2n/wXIUpG04ib8iYAAAAASUVORK5CYII=" y="0"/>
+      <image height="16" id="nullable_icon" transform="scale(0.64)" width="16" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAaRJREFUOI2lj79LG2Ecxj/3crmECElTORKISmk4KRTBiqOLOhQ3cWj/h2Yx4GZG3YR0UehfUOnkZicnR3FQAuKZYP0BRi/aJD19teePQe+845K20Gd6ed7v5/k+X/hPKe5jZGGopCW1vBpTI38CHOn8vmncLK7PbBa8gJGFoVI8HZ9OpDLoWYNorKstfC1tzo5NmhcnXNYuP6/PbBYEgJbU8olUhp7cYEcYIBrroic3SCKVQUtqeQAVQI2pET1reIOlN7MAfDn8yo5dDXiFnXn0rEHz4iQCIPzpSBvFOvaCprrHiJweIWo/nmtIO9BS+D9Ew0K5dTxLj6cZ7X0fOEM0LJB2OED59TN0c7m+xXjfBC+iLwO+f/Y5wLfZ1creMooimMx9DAb4ZgWAcxWGAc6lxdrBdwb0d6E/lxEArcNW2wCAtYNV6ldWyHcZASDrkjtFhIYAnHuHlcpywLtTBLIuH88BGPiU2zWG3xqvXqc7NvFrv1rD3Cib20uVfndt0dwos1+tdWzibn6CAYpeg6cWH4A5wGiPezKB4vZS5ds/1f2bHgDZ6ZBKHnLkqwAAAABJRU5ErkJggg==" y="0"/>
+      <image height="16" id="note_icon" transform="scale(0.64)" width="16" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAASxJREFUOI29kTFLw0AYhp8TXZSCo9jJsdq15bBDzeTUrWAHIYNQx+LSpf8gP8Ah0MExmKG4hLq4VCh0bUaHEHQUgjQUEc8liW2a2griBwfHfd/z3Hsc/EcVWgOh9zpbhdZApHsb6wjKmvMJvJc1ZzctWUsQ1yQIX8uas1e4vEskKwV6r6MAGrIWS16Ojh8ODs9NsVIwC7tTD1mVAHiu/7Szf78NsLkMmgRhcqs79QCwrm+/n+OfhGDPJ9B7HdWQNSZByMXp2TJYREtlJRDdvqVkVdLtW0lk98NP+iPDjrZ2Ypur+s0VgMpV8rw9PpOr5BmbwxQ8c+PCCVBq1xVAsSljmJFhZ84u/EIEC0CMzSHFpszisgUxPDJsorgijv+jJYZL7XrW+Ur2d4N/XV+HaG+ID5iU1AAAAABJRU5ErkJggg==" y="0"/>
+      <image height="16" id="zone_icon" transform="scale(0.64)" width="16" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAALxJREFUOI1jYBhowIjMOTUr6v/F208JajL1TWMwsItmZGBgYGBBlnjy6gODV1ovXs0/3j9huHr+IJyPYsCbj18YRAV5GRj+/8VpwD8BDYZ9G2diN+Db998MD/ZNIuiFrx8/YDfgz5+/DJxMPwka8OcPwoVMyBK//+B2Oi51FBvAgi7ByMSCoYEkA5g4+Mg34M+ffwws3CIEDfjz5x8OA/7+Y2ibMIegAcgAJSnv3bX2P7Eand2CGQmrogcAAKgpTeNMOGM9AAAAAElFTkSuQmCC" y="0"/>
+    </g>
+  </defs>
+  <g Nm="RectGlyph">
+    <rect height="268.0" rx="2.56" ry="2.56" style="fill:rgb(248, 247, 241);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="327.0" x="30.0" y="502.0"/>
+    <rect height="268.0" rx="2.56" ry="2.56" style="fill:rgb(248, 247, 241);stroke:rgb(248, 247, 241);stroke-width:0.5;" width="327.0" x="30.0" y="502.0"/>
+  </g>
+  <g>
+    <rect height="18.0" rx="2.56" ry="2.56" style="fill:url(#255_255_255_248_247_241);" width="326.0" x="30.5" y="502.5"/>
+    <rect height="18.0" rx="0.0" ry="0.0" style="fill:url(#255_255_255_248_247_241);" width="326.0" x="30.5" y="506.5"/>
+    <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="41" y="518">human_resources</text>
+    <use x="32" xlink:href="#zone_icon" y="510"/>
+  </g>
+  <g Nm="RectGlyph">
+    <rect height="649.0" rx="2.56" ry="2.56" style="fill:rgb(235, 235, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="642.0" x="32.0" y="804.0"/>
+    <rect height="649.0" rx="2.56" ry="2.56" style="fill:rgb(235, 235, 255);stroke:rgb(235, 235, 255);stroke-width:0.5;" width="642.0" x="32.0" y="804.0"/>
+  </g>
+  <g>
+    <rect height="18.0" rx="2.56" ry="2.56" style="fill:url(#255_255_255_235_235_255);" width="641.0" x="32.5" y="804.5"/>
+    <rect height="18.0" rx="0.0" ry="0.0" style="fill:url(#255_255_255_235_235_255);" width="641.0" x="32.5" y="808.5"/>
+    <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="43" y="820">projects_management</text>
+    <use x="34" xlink:href="#zone_icon" y="812"/>
+  </g>
+  <g Nm="RectGlyph">
+    <rect height="453.0" rx="2.56" ry="2.56" style="fill:rgb(255, 245, 235);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="630.0" x="26.0" y="21.0"/>
+    <rect height="453.0" rx="2.56" ry="2.56" style="fill:rgb(255, 245, 235);stroke:rgb(255, 245, 235);stroke-width:0.5;" width="630.0" x="26.0" y="21.0"/>
+  </g>
+  <g>
+    <rect height="18.0" rx="2.56" ry="2.56" style="fill:url(#255_255_255_255_245_235);" width="629.0" x="26.5" y="21.5"/>
+    <rect height="18.0" rx="0.0" ry="0.0" style="fill:url(#255_255_255_255_245_235);" width="629.0" x="26.5" y="25.5"/>
+    <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="37" y="37">security</text>
+    <use x="28" xlink:href="#zone_icon" y="29"/>
+  </g>
+  <g Nm="RectGlyph">
+    <rect height="475.0" rx="2.56" ry="2.56" style="fill:rgb(238, 247, 252);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="350.0" x="731.0" y="1175.0"/>
+    <rect height="475.0" rx="2.56" ry="2.56" style="fill:rgb(238, 247, 252);stroke:rgb(238, 247, 252);stroke-width:0.5;" width="350.0" x="731.0" y="1175.0"/>
+  </g>
+  <g>
+    <rect height="18.0" rx="2.56" ry="2.56" style="fill:url(#255_255_255_238_247_252);" width="349.0" x="731.5" y="1175.5"/>
+    <rect height="18.0" rx="0.0" ry="0.0" style="fill:url(#255_255_255_238_247_252);" width="349.0" x="731.5" y="1179.5"/>
+    <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="742" y="1191">technologies</text>
+    <use x="733" xlink:href="#zone_icon" y="1183"/>
+  </g>
+  <g Nm="RRecSpShd">
+    <rect height="143.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="247.0" x="1553.0" y="928.0"/>
+    <rect height="141.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="245.0" x="1554.0" y="929.0"/>
+  </g>
+  <g Nm="RRecSpShd">
+    <rect height="143.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="255.0" x="1169.0" y="692.0"/>
+    <rect height="141.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="253.0" x="1170.0" y="693.0"/>
+  </g>
+  <g Nm="RRecSpShd">
+    <rect height="175.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="237.0" x="1559.0" y="677.0"/>
+    <rect height="173.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="235.0" x="1560.0" y="678.0"/>
+  </g>
+  <g Nm="RRecSpShd">
+    <rect height="223.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="248.0" x="812.0" y="911.0"/>
+    <rect height="221.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="246.0" x="813.0" y="912.0"/>
+  </g>
+  <g Nm="RRecSpShd">
+    <rect height="191.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="256.0" x="1183.0" y="1156.0"/>
+    <rect height="189.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="254.0" x="1184.0" y="1157.0"/>
+  </g>
+  <g Nm="RRecSpShd">
+    <rect height="207.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="240.0" x="1176.0" y="429.0"/>
+    <rect height="205.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="238.0" x="1177.0" y="430.0"/>
+  </g>
+  <g Nm="RRecSpShd">
+    <rect height="221.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="271.0" x="461.0" y="557.0"/>
+    <rect height="223.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="273.0" x="460.0" y="556.0"/>
+  </g>
+  <g Nm="RRecSpShd">
+    <rect height="207.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="265.0" x="817.0" y="622.0"/>
+    <rect height="205.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="263.0" x="818.0" y="623.0"/>
+  </g>
+  <g Nm="RRecSpShd">
+    <rect height="159.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="234.0" x="751.0" y="295.0"/>
+    <rect height="157.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="232.0" x="752.0" y="296.0"/>
+  </g>
+  <g Nm="RRecSpShd">
+    <rect height="175.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="259.0" x="736.0" y="31.0"/>
+    <rect height="173.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="257.0" x="737.0" y="32.0"/>
+  </g>
+  <g Nm="RRecSpShd">
+    <rect height="175.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="251.0" x="1180.0" y="909.0"/>
+    <rect height="173.0" rx="8.32" ry="8.32" style="fill:rgb(230, 230, 230);" width="249.0" x="1181.0" y="910.0"/>
+  </g>
+  <line style="stroke:rgb(0, 0, 0);" x1="351.6941602043923" x2="427.3058397956077" y1="853.3955528023193" y2="755.6044471976807"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="462.5" x2="426.5" y1="756.0" y2="756.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="451.0" x2="451.0" y1="748.5" y2="763.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="450.57816925613395" x2="462.42183074386605" y1="756.2684377460965" y2="748.7315622539035"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="450.57816925613395" x2="462.42183074386605" y1="755.7315622539035" y2="763.2684377460965"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="450.5" x2="462.5" y1="756.0" y2="756.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="316.5" x2="352.5" y1="853.0" y2="853.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="328.0" x2="328.0" y1="860.5" y2="845.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="547.0" x2="547.0" y1="478.5" y2="523.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="547.0" x2="547.0" y1="558.5" y2="522.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="554.5" x2="539.5" y1="547.0" y2="547.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="546.7315622539035" x2="554.2684377460965" y1="546.578169256134" y2="558.421830743866"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="547.2684377460965" x2="539.7315622539035" y1="546.578169256134" y2="558.421830743866"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="547.0" x2="547.0" y1="546.5" y2="558.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="547.0" x2="547.0" y1="443.5" y2="479.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="539.5" x2="554.5" y1="455.0" y2="455.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1455.5" x2="1526.5" y1="763.0" y2="763.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1561.5" x2="1525.5" y1="763.0" y2="763.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1550.0" x2="1550.0" y1="755.5" y2="770.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1549.5781692561338" x2="1561.4218307438662" y1="763.2684377460965" y2="755.7315622539035"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1549.5781692561338" x2="1561.4218307438662" y1="762.7315622539035" y2="770.2684377460965"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1549.5" x2="1561.5" y1="763.0" y2="763.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1420.5" x2="1456.5" y1="763.0" y2="763.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1432.0" x2="1432.0" y1="770.5" y2="755.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1677.0" x2="1677.0" y1="895.5" y2="883.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1677.0" x2="1677.0" y1="848.5" y2="884.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1669.5" x2="1684.5" y1="860.0" y2="860.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1677.2684377460967" x2="1669.7315622539033" y1="860.421830743866" y2="848.578169256134"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1676.7315622539033" x2="1684.2684377460967" y1="860.421830743866" y2="848.578169256134"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1677.0" x2="1677.0" y1="860.5" y2="848.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1677.0" x2="1677.0" y1="930.5" y2="894.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1684.5" x2="1669.5" y1="919.0" y2="919.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="764.5" x2="784.5" y1="700.0" y2="700.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="819.5" x2="783.5" y1="700.0" y2="700.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="808.0" x2="808.0" y1="692.5" y2="707.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="807.578169256134" x2="819.421830743866" y1="700.2684377460965" y2="692.7315622539035"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="807.578169256134" x2="819.421830743866" y1="699.7315622539035" y2="707.2684377460965"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="807.5" x2="819.5" y1="700.0" y2="700.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="729.5" x2="765.5" y1="700.0" y2="700.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="741.0" x2="741.0" y1="707.5" y2="692.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1136.5" x2="1113.5" y1="760.0" y2="760.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1078.5" x2="1114.5" y1="760.0" y2="760.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1090.0" x2="1090.0" y1="767.5" y2="752.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1090.4218307438662" x2="1078.5781692561338" y1="759.7315622539035" y2="767.2684377460965"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1090.4218307438662" x2="1078.5781692561338" y1="760.2684377460965" y2="752.7315622539035"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1090.5" x2="1078.5" y1="760.0" y2="760.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1171.5" x2="1135.5" y1="760.0" y2="760.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1160.0" x2="1160.0" y1="752.5" y2="767.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="938.0" x2="938.0" y1="878.5" y2="860.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="938.0" x2="938.0" y1="825.5" y2="861.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="930.5" x2="945.5" y1="837.0" y2="837.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="938.2684377460965" x2="930.7315622539035" y1="837.421830743866" y2="825.578169256134"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="937.7315622539035" x2="945.2684377460965" y1="837.421830743866" y2="825.578169256134"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="938.0" x2="938.0" y1="837.5" y2="825.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="938.0" x2="938.0" y1="913.5" y2="877.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="945.5" x2="930.5" y1="902.0" y2="902.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="927.0" x2="927.0" y1="1178.5" y2="1165.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="927.0" x2="927.0" y1="1130.5" y2="1166.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="919.5" x2="934.5" y1="1142.0" y2="1142.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="927.2684377460965" x2="919.7315622539035" y1="1142.4218307438662" y2="1130.5781692561338"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="926.7315622539035" x2="934.2684377460965" y1="1142.4218307438662" y2="1130.5781692561338"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="927.0" x2="927.0" y1="1142.5" y2="1130.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="927.0" x2="927.0" y1="1213.5" y2="1177.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="934.5" x2="919.5" y1="1202.0" y2="1202.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1301.0" x2="1301.0" y1="866.5" y2="876.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1301.0" x2="1301.0" y1="911.5" y2="875.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1308.5" x2="1293.5" y1="900.0" y2="900.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1300.7315622539033" x2="1308.2684377460967" y1="899.578169256134" y2="911.421830743866"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1301.2684377460967" x2="1293.7315622539033" y1="899.578169256134" y2="911.421830743866"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1301.0" x2="1301.0" y1="899.5" y2="911.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1301.0" x2="1301.0" y1="831.5" y2="867.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1293.5" x2="1308.5" y1="843.0" y2="843.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1091.5" x2="1147.5" y1="997.0" y2="997.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1182.5" x2="1146.5" y1="997.0" y2="997.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1171.0" x2="1171.0" y1="989.5" y2="1004.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1170.5781692561338" x2="1182.4218307438662" y1="997.2684377460965" y2="989.7315622539035"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1170.5781692561338" x2="1182.4218307438662" y1="996.7315622539035" y2="1004.2684377460965"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1170.5" x2="1182.5" y1="997.0" y2="997.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1056.5" x2="1092.5" y1="997.0" y2="997.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1068.0" x2="1068.0" y1="1004.5" y2="989.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1520.5" x2="1462.5" y1="999.0" y2="999.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1427.5" x2="1463.5" y1="999.0" y2="999.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1439.0" x2="1439.0" y1="1006.5" y2="991.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1439.4218307438662" x2="1427.5781692561338" y1="998.7315622539035" y2="1006.2684377460965"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1439.4218307438662" x2="1427.5781692561338" y1="999.2684377460965" y2="991.7315622539035"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1439.5" x2="1427.5" y1="999.0" y2="999.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1555.5" x2="1519.5" y1="999.0" y2="999.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1544.0" x2="1544.0" y1="991.5" y2="1006.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1091.7016486168277" x2="1150.2983513831723" y1="1095.598768829527" y2="1174.401231170473"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1185.5" x2="1149.5" y1="1174.0" y2="1174.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1174.0" x2="1174.0" y1="1166.5" y2="1181.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1173.5781692561338" x2="1185.4218307438662" y1="1174.2684377460967" y2="1166.7315622539033"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1173.5781692561338" x2="1185.4218307438662" y1="1173.7315622539033" y2="1181.2684377460967"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1173.5" x2="1185.5" y1="1174.0" y2="1174.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1056.5" x2="1092.5" y1="1096.0" y2="1096.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1068.0" x2="1068.0" y1="1103.5" y2="1088.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1306.0" x2="1306.0" y1="1115.5" y2="1123.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1306.0" x2="1306.0" y1="1158.5" y2="1122.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1313.5" x2="1298.5" y1="1147.0" y2="1147.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1305.7315622539033" x2="1313.2684377460967" y1="1146.5781692561338" y2="1158.4218307438662"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1306.2684377460967" x2="1298.7315622539033" y1="1146.5781692561338" y2="1158.4218307438662"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1306.0" x2="1306.0" y1="1146.5" y2="1158.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1306.0" x2="1306.0" y1="1080.5" y2="1116.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1298.5" x2="1313.5" y1="1092.0" y2="1092.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1295.0" x2="1295.0" y1="658.5" y2="668.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1295.0" x2="1295.0" y1="632.5" y2="668.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1287.5" x2="1302.5" y1="644.0" y2="644.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1295.2684377460967" x2="1287.7315622539033" y1="644.421830743866" y2="632.578169256134"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1294.7315622539033" x2="1302.2684377460967" y1="644.421830743866" y2="632.578169256134"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1295.0" x2="1295.0" y1="644.5" y2="632.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1295.0" x2="1295.0" y1="694.5" y2="658.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="1302.5" x2="1287.5" y1="683.0" y2="683.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="867.0" x2="867.0" y1="262.5" y2="237.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="867.0" x2="867.0" y1="202.5" y2="238.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="859.5" x2="874.5" y1="214.0" y2="214.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="867.2684377460965" x2="859.7315622539035" y1="214.42183074386605" y2="202.57816925613395"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="866.7315622539035" x2="874.2684377460965" y1="214.42183074386605" y2="202.57816925613395"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="867.0" x2="867.0" y1="214.5" y2="202.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="867.0" x2="867.0" y1="297.5" y2="261.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="874.5" x2="859.5" y1="286.0" y2="286.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="617.504560828808" x2="743.495439171192" y1="255.06737972728212" y2="237.93262027271788"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="743.0" x2="743.0" y1="202.5" y2="238.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="735.5" x2="750.5" y1="214.0" y2="214.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="743.2684377460965" x2="735.7315622539035" y1="214.42183074386605" y2="202.57816925613395"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="742.7315622539035" x2="750.2684377460965" y1="214.42183074386605" y2="202.57816925613395"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="743.0" x2="743.0" y1="214.5" y2="202.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="618.0" x2="618.0" y1="290.5" y2="254.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="625.5" x2="610.5" y1="279.0" y2="279.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="696.5316412778976" x2="796.4683587221024" y1="523.1750431587656" y2="485.82495684123444"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="796.0" x2="796.0" y1="450.5" y2="486.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="788.5" x2="803.5" y1="462.0" y2="462.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="796.2684377460965" x2="788.7315622539035" y1="462.42183074386605" y2="450.57816925613395"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="795.7315622539035" x2="803.2684377460965" y1="462.42183074386605" y2="450.57816925613395"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="796.0" x2="796.0" y1="462.5" y2="450.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="697.0" x2="697.0" y1="558.5" y2="522.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="704.5" x2="689.5" y1="547.0" y2="547.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="898.0" x2="898.0" y1="878.5" y2="485.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="898.0" x2="898.0" y1="450.5" y2="486.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="890.5" x2="905.5" y1="462.0" y2="462.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="898.2684377460965" x2="890.7315622539035" y1="462.42183074386605" y2="450.57816925613395"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="897.7315622539035" x2="905.2684377460965" y1="462.42183074386605" y2="450.57816925613395"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="898.0" x2="898.0" y1="462.5" y2="450.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="898.0" x2="898.0" y1="913.5" y2="877.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="905.5" x2="890.5" y1="902.0" y2="902.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="188.0" x2="188.0" y1="1257.5" y2="1276.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="188.0" x2="188.0" y1="1240.5" y2="1276.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="180.5" x2="195.5" y1="1252.0" y2="1252.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="188.26843774609657" x2="180.73156225390343" y1="1252.4218307438662" y2="1240.5781692561338"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="187.73156225390343" x2="195.26843774609657" y1="1252.4218307438662" y2="1240.5781692561338"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="188.0" x2="188.0" y1="1252.5" y2="1240.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="188.0" x2="188.0" y1="1293.5" y2="1257.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="195.5" x2="180.5" y1="1282.0" y2="1282.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="199.0" x2="199.0" y1="769.5" y2="804.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="199.0" x2="199.0" y1="839.5" y2="803.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="206.5" x2="191.5" y1="828.0" y2="828.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="198.73156225390343" x2="206.26843774609657" y1="827.578169256134" y2="839.421830743866"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="199.26843774609657" x2="191.73156225390343" y1="827.578169256134" y2="839.421830743866"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="199.0" x2="199.0" y1="827.5" y2="839.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="199.0" x2="199.0" y1="734.5" y2="770.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="191.5" x2="206.5" y1="746.0" y2="746.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="347.5" x2="352.5" y1="937.0" y2="937.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="316.5" x2="352.5" y1="937.0" y2="937.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="328.0" x2="328.0" y1="944.5" y2="929.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="328.42183074386605" x2="316.57816925613395" y1="936.7315622539035" y2="944.2684377460965"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="328.42183074386605" x2="316.57816925613395" y1="937.2684377460965" y2="929.7315622539035"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="328.5" x2="316.5" y1="937.0" y2="937.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="383.5" x2="347.5" y1="937.0" y2="937.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="372.0" x2="372.0" y1="929.5" y2="944.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="348.0" x2="348.0" y1="867.5" y2="816.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="347.5" x2="398.5" y1="817.0" y2="817.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="398.0" x2="398.0" y1="852.5" y2="816.5"/>
+  <circle cx="398" cy="833" r="7" style="stroke:rgb(0, 0, 0);fill:rgb(255, 255, 255);"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="405.5" x2="390.5" y1="841.0" y2="841.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="397.7315622539034" x2="405.2684377460966" y1="840.578169256134" y2="852.421830743866"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="398.2684377460966" x2="390.7315622539034" y1="840.578169256134" y2="852.421830743866"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="398.0" x2="398.0" y1="840.5" y2="852.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="383.5" x2="347.5" y1="867.0" y2="867.0"/>
+  <circle cx="364" cy="867" r="7" style="stroke:rgb(0, 0, 0);fill:rgb(255, 255, 255);"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="372.0" x2="372.0" y1="859.5" y2="874.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="502.0" x2="502.0" y1="1057.5" y2="1032.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="502.0" x2="502.0" y1="1068.5" y2="1032.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="509.5" x2="494.5" y1="1057.0" y2="1057.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="501.7315622539034" x2="509.2684377460966" y1="1056.5781692561338" y2="1068.4218307438662"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="502.2684377460966" x2="494.7315622539034" y1="1056.5781692561338" y2="1068.4218307438662"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="502.0" x2="502.0" y1="1056.5" y2="1068.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="502.0" x2="502.0" y1="1021.5" y2="1057.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="494.5" x2="509.5" y1="1033.0" y2="1033.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="502.0" x2="502.0" y1="1233.5" y2="1257.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="502.0" x2="502.0" y1="1221.5" y2="1257.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="494.5" x2="509.5" y1="1233.0" y2="1233.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="502.2684377460966" x2="494.7315622539034" y1="1233.4218307438662" y2="1221.5781692561338"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="501.7315622539034" x2="509.2684377460966" y1="1233.4218307438662" y2="1221.5781692561338"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="502.0" x2="502.0" y1="1233.5" y2="1221.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="502.0" x2="502.0" y1="1269.5" y2="1233.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="509.5" x2="494.5" y1="1258.0" y2="1258.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="325.50329553206444" x2="352.49670446793556" y1="1275.9426879460075" y2="1279.0573120539925"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="387.5" x2="351.5" y1="1279.0" y2="1279.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="376.0" x2="376.0" y1="1271.5" y2="1286.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="375.57816925613395" x2="387.42183074386605" y1="1279.2684377460967" y2="1271.7315622539033"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="375.57816925613395" x2="387.42183074386605" y1="1278.7315622539033" y2="1286.2684377460967"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="375.5" x2="387.5" y1="1279.0" y2="1279.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="326.0" x2="326.0" y1="1240.5" y2="1276.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="318.5" x2="333.5" y1="1252.0" y2="1252.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="721.5" x2="655.5" y1="1334.0" y2="1334.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="620.5" x2="656.5" y1="1334.0" y2="1334.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="632.0" x2="632.0" y1="1341.5" y2="1326.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="632.421830743866" x2="620.578169256134" y1="1333.7315622539033" y2="1341.2684377460967"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="632.421830743866" x2="620.578169256134" y1="1334.2684377460967" y2="1326.7315622539033"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="632.5" x2="620.5" y1="1334.0" y2="1334.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="756.5" x2="720.5" y1="1334.0" y2="1334.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="745.0" x2="745.0" y1="1326.5" y2="1341.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="165.0" x2="165.0" y1="248.5" y2="253.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="165.0" x2="165.0" y1="288.5" y2="252.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="172.5" x2="157.5" y1="277.0" y2="277.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="164.73156225390343" x2="172.26843774609657" y1="276.57816925613395" y2="288.42183074386605"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="165.26843774609657" x2="157.73156225390343" y1="276.57816925613395" y2="288.42183074386605"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="165.0" x2="165.0" y1="276.5" y2="288.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="165.0" x2="165.0" y1="213.5" y2="249.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="157.5" x2="172.5" y1="225.0" y2="225.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="349.5" x2="317.5" y1="366.0" y2="366.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="282.5" x2="318.5" y1="366.0" y2="366.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="294.0" x2="294.0" y1="373.5" y2="358.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="294.42183074386605" x2="282.57816925613395" y1="365.7315622539034" y2="373.2684377460966"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="294.42183074386605" x2="282.57816925613395" y1="366.2684377460966" y2="358.7315622539034"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="294.5" x2="282.5" y1="366.0" y2="366.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="384.5" x2="348.5" y1="366.0" y2="366.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="373.0" x2="373.0" y1="358.5" y2="373.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="903.0" x2="903.0" y1="1435.5" y2="1433.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="903.0" x2="903.0" y1="1398.5" y2="1434.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="895.5" x2="910.5" y1="1410.0" y2="1410.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="903.2684377460965" x2="895.7315622539035" y1="1410.4218307438662" y2="1398.5781692561338"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="902.7315622539035" x2="910.2684377460965" y1="1410.4218307438662" y2="1398.5781692561338"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="903.0" x2="903.0" y1="1410.5" y2="1398.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="903.0" x2="903.0" y1="1470.5" y2="1434.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="910.5" x2="895.5" y1="1459.0" y2="1459.0"/>
+  <g Nm="RectGlyph">
+    <rect height="154.0" rx="8.32" ry="8.32" style="fill:rgb(255, 204, 153);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="248.0" x="384.0" y="290.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(255, 204, 153);stroke:rgb(255, 204, 153);stroke-width:0.5;" width="248.0" x="384.0" y="290.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(255, 204, 153);stroke:rgb(255, 204, 153);stroke-width:0.5;" width="248.0" x="384.0" y="423.1"/>
+    <rect height="117.30000000000001" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="248.0" x="384.0" y="318.8"/>
+  </g>
+  <use x="386" xlink:href="#table_icon" y="298"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="489" y="309">users</text>
+  <use x="386" xlink:href="#pk_icon" y="325"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="398" y="336">user_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="516" y="336">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="580" y="336">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="584" y="336"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="566" y="336">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="584" y="336">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="562" y="336">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="398" y="352">user_full_name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="516" y="352">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="587" y="352">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="591" y="352"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="566" y="352">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="591" y="352">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="562" y="352">(</text>
+  <use x="607" xlink:href="#index_icon" y="358"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="398" y="368">user_email</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="516" y="368">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="587" y="368">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="591" y="368"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="566" y="368">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="591" y="368">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="562" y="368">(</text>
+  <use x="607" xlink:href="#index_icon" y="374"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="398" y="384">user_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="516" y="384">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="562" y="384"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="562" y="384">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="398" y="400">user_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="516" y="400">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="580" y="400"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="580" y="400">  </text>
+  <use x="595" xlink:href="#nullable_icon" y="406"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="398" y="416">user_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="516" y="416">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="580" y="416"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="580" y="416">  </text>
+  <use x="595" xlink:href="#nullable_icon" y="422"/>
+  <use x="607" xlink:href="#index_icon" y="422"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="398" y="432">user_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="516" y="432">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="580" y="432"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="580" y="432">  </text>
+  <g Nm="RectGlyph">
+    <rect height="154.0" rx="8.32" ry="8.32" style="fill:rgb(255, 204, 153);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="252.0" x="41.0" y="60.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(255, 204, 153);stroke:rgb(255, 204, 153);stroke-width:0.5;" width="252.0" x="41.0" y="60.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(255, 204, 153);stroke:rgb(255, 204, 153);stroke-width:0.5;" width="252.0" x="41.0" y="193.1"/>
+    <rect height="117.30000000000001" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="252.0" x="41.0" y="88.8"/>
+  </g>
+  <use x="43" xlink:href="#table_icon" y="68"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="150" y="79">roles</text>
+  <use x="43" xlink:href="#pk_icon" y="95"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="55" y="106">role_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="170" y="106">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="234" y="106">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="106"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="106">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="106">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="216" y="106">(</text>
+  <use x="268" xlink:href="#index_icon" y="112"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="55" y="122">role_name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="170" y="122">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="234" y="122">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="122"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="122">50</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="122">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="216" y="122">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="55" y="138">role_description</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="170" y="138">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="248" y="138">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="252" y="138"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="138">1024</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="252" y="138">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="216" y="138">(</text>
+  <use x="268" xlink:href="#index_icon" y="144"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="55" y="154">role_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="170" y="154">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="216" y="154"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="216" y="154">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="55" y="170">role_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="170" y="170">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="234" y="170"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="234" y="170">  </text>
+  <use x="256" xlink:href="#nullable_icon" y="176"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="55" y="186">role_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="170" y="186">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="234" y="186"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="234" y="186">  </text>
+  <use x="256" xlink:href="#nullable_icon" y="192"/>
+  <use x="268" xlink:href="#index_icon" y="192"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="55" y="202">role_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="170" y="202">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="234" y="202"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="234" y="202">  </text>
+  <g Nm="RectGlyph">
+    <rect height="154.0" rx="8.32" ry="8.32" style="fill:rgb(255, 204, 153);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="235.0" x="48.0" y="288.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(255, 204, 153);stroke:rgb(255, 204, 153);stroke-width:0.5;" width="235.0" x="48.0" y="288.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(255, 204, 153);stroke:rgb(255, 204, 153);stroke-width:0.5;" width="235.0" x="48.0" y="421.1"/>
+    <rect height="117.30000000000001" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="235.0" x="48.0" y="316.8"/>
+  </g>
+  <use x="50" xlink:href="#table_icon" y="296"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="129" y="307">user_per_role</text>
+  <use x="50" xlink:href="#pk_icon" y="323"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="62" y="334">upr_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="174" y="334">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="334">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="242" y="334"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="224" y="334">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="242" y="334">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="334">(</text>
+  <use x="270" xlink:href="#fk_icon" y="340"/>
+  <use x="258" xlink:href="#index_icon" y="340"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="62" y="350">user_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="174" y="350">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="350">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="242" y="350"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="224" y="350">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="242" y="350">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="350">(</text>
+  <use x="270" xlink:href="#fk_icon" y="356"/>
+  <use x="258" xlink:href="#index_icon" y="356"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="62" y="366">role_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="174" y="366">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="366">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="242" y="366"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="224" y="366">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="242" y="366">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="366">(</text>
+  <use x="258" xlink:href="#index_icon" y="372"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="62" y="382">upr_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="174" y="382">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="382"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="382">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="62" y="398">upr_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="174" y="398">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="398"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="398">  </text>
+  <use x="246" xlink:href="#nullable_icon" y="404"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="62" y="414">upr_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="174" y="414">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="414"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="414">  </text>
+  <use x="246" xlink:href="#nullable_icon" y="420"/>
+  <use x="258" xlink:href="#index_icon" y="420"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="62" y="430">upr_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="174" y="430">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="430"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="238" y="430">  </text>
+  <g Nm="RectGlyph">
+    <rect height="186.0" rx="8.32" ry="8.32" style="fill:rgb(221, 216, 187);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="265.0" x="56.0" y="549.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(221, 216, 187);stroke:rgb(221, 216, 187);stroke-width:0.5;" width="265.0" x="56.0" y="549.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(221, 216, 187);stroke:rgb(221, 216, 187);stroke-width:0.5;" width="265.0" x="56.0" y="714.1"/>
+    <rect height="149.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="265.0" x="56.0" y="577.8"/>
+  </g>
+  <use x="58" xlink:href="#table_icon" y="557"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="152" y="568">professionals</text>
+  <use x="58" xlink:href="#pk_icon" y="584"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="70" y="595">pro_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="205" y="595">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="269" y="595">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="273" y="595"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="255" y="595">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="273" y="595">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="595">(</text>
+  <use x="296" xlink:href="#index_icon" y="601"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="70" y="611">pro_document_type</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="205" y="611">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="262" y="611">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="266" y="611"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="255" y="611">2</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="266" y="611">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="611">(</text>
+  <use x="296" xlink:href="#index_icon" y="617"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="70" y="627">pro_document</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="205" y="627">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="269" y="627">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="273" y="627"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="255" y="627">20</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="273" y="627">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="627">(</text>
+  <use x="296" xlink:href="#index_icon" y="633"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="70" y="643">pro_full_name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="205" y="643">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="276" y="643">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="280" y="643"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="255" y="643">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="280" y="643">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="643">(</text>
+  <use x="296" xlink:href="#index_icon" y="649"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="70" y="659">pro_email</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="205" y="659">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="276" y="659">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="280" y="659"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="255" y="659">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="280" y="659">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="659">(</text>
+  <use x="296" xlink:href="#index_icon" y="665"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="70" y="675">pro_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="205" y="675">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="675"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="675">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="70" y="691">pro_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="205" y="691">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="269" y="691"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="269" y="691">  </text>
+  <use x="284" xlink:href="#nullable_icon" y="697"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="70" y="707">pro_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="205" y="707">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="269" y="707"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="269" y="707">  </text>
+  <use x="284" xlink:href="#nullable_icon" y="713"/>
+  <use x="296" xlink:href="#index_icon" y="713"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="70" y="723">pro_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="205" y="723">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="269" y="723"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="269" y="723">  </text>
+  <g Nm="RectGlyph">
+    <rect height="154.0" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="262.0" x="74.0" y="1087.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="262.0" x="74.0" y="1087.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="262.0" x="74.0" y="1220.1"/>
+    <rect height="117.30000000000001" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="262.0" x="74.0" y="1115.8"/>
+  </g>
+  <use x="76" xlink:href="#table_icon" y="1095"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="180" y="1106">projects</text>
+  <use x="76" xlink:href="#pk_icon" y="1122"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="88" y="1133">project_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="1133">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="284" y="1133">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="288" y="1133"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="270" y="1133">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="288" y="1133">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="266" y="1133">(</text>
+  <use x="323" xlink:href="#fk_icon" y="1139"/>
+  <use x="311" xlink:href="#index_icon" y="1139"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="88" y="1149">customer_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="1149">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="284" y="1149">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="288" y="1149"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="270" y="1149">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="288" y="1149">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="266" y="1149">(</text>
+  <use x="311" xlink:href="#index_icon" y="1155"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="88" y="1165">project_name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="1165">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="291" y="1165">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="295" y="1165"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="270" y="1165">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="295" y="1165">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="266" y="1165">(</text>
+  <use x="311" xlink:href="#index_icon" y="1171"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="88" y="1181">project_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="1181">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="266" y="1181"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="266" y="1181">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="88" y="1197">project_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="1197">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="284" y="1197"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="284" y="1197">  </text>
+  <use x="299" xlink:href="#nullable_icon" y="1203"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="88" y="1213">project_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="1213">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="284" y="1213"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="284" y="1213">  </text>
+  <use x="299" xlink:href="#nullable_icon" y="1219"/>
+  <use x="311" xlink:href="#index_icon" y="1219"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="88" y="1229">project_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="220" y="1229">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="284" y="1229"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="284" y="1229">  </text>
+  <g Nm="RectGlyph">
+    <rect height="138.0" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="242.0" x="61.0" y="1293.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="242.0" x="61.0" y="1293.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="242.0" x="61.0" y="1410.1"/>
+    <rect height="101.30000000000001" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="242.0" x="61.0" y="1321.8"/>
+  </g>
+  <use x="63" xlink:href="#table_icon" y="1301"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="151" y="1312">customers</text>
+  <use x="63" xlink:href="#pk_icon" y="1328"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="75" y="1339">cus_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="187" y="1339">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="1339">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="255" y="1339"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="237" y="1339">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="255" y="1339">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="233" y="1339">(</text>
+  <use x="278" xlink:href="#index_icon" y="1345"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="75" y="1355">cus_name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="187" y="1355">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="258" y="1355">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="262" y="1355"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="237" y="1355">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="262" y="1355">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="233" y="1355">(</text>
+  <use x="278" xlink:href="#index_icon" y="1361"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="75" y="1371">cus_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="187" y="1371">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="233" y="1371"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="233" y="1371">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="75" y="1387">cus_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="187" y="1387">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="1387"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="1387">  </text>
+  <use x="266" xlink:href="#nullable_icon" y="1393"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="75" y="1403">cus_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="187" y="1403">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="1403"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="1403">  </text>
+  <use x="266" xlink:href="#nullable_icon" y="1409"/>
+  <use x="278" xlink:href="#index_icon" y="1409"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="75" y="1419">cus_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="187" y="1419">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="1419"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="1419">  </text>
+  <g Nm="RectGlyph">
+    <rect height="186.0" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="235.0" x="82.0" y="839.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="235.0" x="82.0" y="839.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="235.0" x="82.0" y="1004.1"/>
+    <rect height="149.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="235.0" x="82.0" y="867.8"/>
+  </g>
+  <use x="84" xlink:href="#table_icon" y="847"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="144" y="858">role_per_professional</text>
+  <use x="84" xlink:href="#pk_icon" y="874"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="96" y="885">rpp_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="208" y="885">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="885">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="276" y="885"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="258" y="885">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="276" y="885">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="254" y="885">(</text>
+  <use x="304" xlink:href="#fk_icon" y="891"/>
+  <use x="292" xlink:href="#index_icon" y="891"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="96" y="901">professional_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="208" y="901">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="901">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="276" y="901"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="258" y="901">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="276" y="901">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="254" y="901">(</text>
+  <use x="304" xlink:href="#fk_icon" y="907"/>
+  <use x="292" xlink:href="#index_icon" y="907"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="96" y="917">role_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="208" y="917">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="917">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="276" y="917"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="258" y="917">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="276" y="917">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="254" y="917">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="96" y="933">rpp_start_date</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="208" y="933">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="933"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="933">  </text>
+  <use x="280" xlink:href="#nullable_icon" y="939"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="96" y="949">rpp_end_date</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="208" y="949">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="949"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="949">  </text>
+  <use x="292" xlink:href="#index_icon" y="955"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="96" y="965">rpp_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="208" y="965">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="254" y="965"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="254" y="965">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="96" y="981">rpp_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="208" y="981">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="981"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="981">  </text>
+  <use x="280" xlink:href="#nullable_icon" y="987"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="96" y="997">rpp_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="208" y="997">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="997"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="997">  </text>
+  <use x="280" xlink:href="#nullable_icon" y="1003"/>
+  <use x="292" xlink:href="#index_icon" y="1003"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="96" y="1013">rpp_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="208" y="1013">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="1013"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="272" y="1013">  </text>
+  <g Nm="RectGlyph">
+    <rect height="186.0" rx="8.32" ry="8.32" style="fill:rgb(168, 215, 240);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="284.0" x="756.0" y="1213.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(168, 215, 240);stroke:rgb(168, 215, 240);stroke-width:0.5;" width="284.0" x="756.0" y="1213.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(168, 215, 240);stroke:rgb(168, 215, 240);stroke-width:0.5;" width="284.0" x="756.0" y="1378.1"/>
+    <rect height="149.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="284.0" x="756.0" y="1241.8"/>
+  </g>
+  <use x="758" xlink:href="#table_icon" y="1221"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="850" y="1232">technology_items</text>
+  <use x="758" xlink:href="#pk_icon" y="1248"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="770" y="1259">tech_item_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="917" y="1259">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="1259">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="985" y="1259"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="967" y="1259">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="985" y="1259">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="963" y="1259">(</text>
+  <use x="1027" xlink:href="#fk_icon" y="1265"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="770" y="1275">tech_type_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="917" y="1275">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="1275">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="985" y="1275"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="967" y="1275">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="985" y="1275">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="963" y="1275">(</text>
+  <use x="1015" xlink:href="#index_icon" y="1281"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="770" y="1291">tech_item_name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="917" y="1291">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="988" y="1291">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="992" y="1291"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="967" y="1291">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="992" y="1291">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="963" y="1291">(</text>
+  <use x="1003" xlink:href="#nullable_icon" y="1297"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="770" y="1307">tech_item_description</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="917" y="1307">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="995" y="1307">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="999" y="1307"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="967" y="1307">2048</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="999" y="1307">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="963" y="1307">(</text>
+  <use x="1003" xlink:href="#nullable_icon" y="1313"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="770" y="1323">tech_item_icon</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="917" y="1323">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="988" y="1323">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="992" y="1323"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="967" y="1323">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="992" y="1323">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="963" y="1323">(</text>
+  <use x="1015" xlink:href="#index_icon" y="1329"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="770" y="1339">tech_item_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="917" y="1339">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="963" y="1339"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="963" y="1339">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="770" y="1355">tech_item_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="917" y="1355">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="1355"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="1355">  </text>
+  <use x="1003" xlink:href="#nullable_icon" y="1361"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="770" y="1371">tech_item_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="917" y="1371">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="1371"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="1371">  </text>
+  <use x="1003" xlink:href="#nullable_icon" y="1377"/>
+  <use x="1015" xlink:href="#index_icon" y="1377"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="770" y="1387">tech_item_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="917" y="1387">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="1387"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="1387">  </text>
+  <g Nm="RectGlyph">
+    <rect height="170.0" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="234.0" x="387.0" y="1269.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="234.0" x="387.0" y="1269.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="234.0" x="387.0" y="1418.1"/>
+    <rect height="133.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="234.0" x="387.0" y="1297.8"/>
+  </g>
+  <use x="389" xlink:href="#table_icon" y="1277"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="458" y="1288">technology_stack</text>
+  <use x="389" xlink:href="#pk_icon" y="1304"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="401" y="1315">ts_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="504" y="1315">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="1315">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="572" y="1315"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="554" y="1315">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="572" y="1315">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="550" y="1315">(</text>
+  <use x="608" xlink:href="#fk_icon" y="1321"/>
+  <use x="596" xlink:href="#index_icon" y="1321"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="401" y="1331">tech_item_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="504" y="1331">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="1331">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="572" y="1331"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="554" y="1331">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="572" y="1331">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="550" y="1331">(</text>
+  <use x="608" xlink:href="#fk_icon" y="1337"/>
+  <use x="596" xlink:href="#index_icon" y="1337"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="401" y="1347">project_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="504" y="1347">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="1347">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="572" y="1347"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="554" y="1347">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="572" y="1347">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="550" y="1347">(</text>
+  <use x="584" xlink:href="#nullable_icon" y="1353"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="401" y="1363">ts_weight</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="504" y="1363">Numeric</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="576" y="1363">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="580" y="1363"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="556" y="1363">3</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="569" y="1363">2</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="580" y="1363">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="552" y="1363">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="563" y="1363">, </text>
+  <use x="596" xlink:href="#index_icon" y="1369"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="401" y="1379">ts_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="504" y="1379">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="550" y="1379"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="550" y="1379">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="401" y="1395">ts_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="504" y="1395">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="1395"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="1395">  </text>
+  <use x="584" xlink:href="#nullable_icon" y="1401"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="401" y="1411">ts_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="504" y="1411">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="1411"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="1411">  </text>
+  <use x="584" xlink:href="#nullable_icon" y="1417"/>
+  <use x="596" xlink:href="#index_icon" y="1417"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="401" y="1427">ts_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="504" y="1427">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="1427"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="1427">  </text>
+  <g Nm="RectGlyph">
+    <rect height="154.0" rx="8.32" ry="8.32" style="fill:rgb(168, 215, 240);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="283.0" x="767.0" y="1470.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(168, 215, 240);stroke:rgb(168, 215, 240);stroke-width:0.5;" width="283.0" x="767.0" y="1470.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(168, 215, 240);stroke:rgb(168, 215, 240);stroke-width:0.5;" width="283.0" x="767.0" y="1603.1"/>
+    <rect height="117.30000000000001" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="283.0" x="767.0" y="1498.8"/>
+  </g>
+  <use x="769" xlink:href="#table_icon" y="1478"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="861" y="1489">technology_types</text>
+  <use x="769" xlink:href="#pk_icon" y="1505"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="781" y="1516">tech_type_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="927" y="1516">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="991" y="1516">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="995" y="1516"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="977" y="1516">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="995" y="1516">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="973" y="1516">(</text>
+  <use x="1025" xlink:href="#index_icon" y="1522"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="781" y="1532">tech_type_name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="927" y="1532">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="998" y="1532">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="1532"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="977" y="1532">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="1532">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="973" y="1532">(</text>
+  <use x="1013" xlink:href="#nullable_icon" y="1538"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="781" y="1548">tech_type_description</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="927" y="1548">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1005" y="1548">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1009" y="1548"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="977" y="1548">2048</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1009" y="1548">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="973" y="1548">(</text>
+  <use x="1025" xlink:href="#index_icon" y="1554"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="781" y="1564">tech_type_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="927" y="1564">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="973" y="1564"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="973" y="1564">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="781" y="1580">tech_type_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="927" y="1580">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="991" y="1580"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="991" y="1580">  </text>
+  <use x="1013" xlink:href="#nullable_icon" y="1586"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="781" y="1596">tech_type_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="927" y="1596">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="991" y="1596"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="991" y="1596">  </text>
+  <use x="1013" xlink:href="#nullable_icon" y="1602"/>
+  <use x="1025" xlink:href="#index_icon" y="1602"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="781" y="1612">tech_type_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="927" y="1612">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="991" y="1612"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="991" y="1612">  </text>
+  <g Nm="RectGlyph">
+    <rect height="170.0" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="258.0" x="383.0" y="852.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="258.0" x="383.0" y="852.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="258.0" x="383.0" y="1001.1"/>
+    <rect height="133.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="258.0" x="383.0" y="880.8"/>
+  </g>
+  <use x="385" xlink:href="#table_icon" y="860"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="495" y="871">roles</text>
+  <use x="385" xlink:href="#pk_icon" y="887"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="397" y="898">role_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="518" y="898">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="582" y="898">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="586" y="898"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="898">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="586" y="898">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="564" y="898">(</text>
+  <use x="604" xlink:href="#nullable_icon" y="904"/>
+  <use x="628" xlink:href="#fk_icon" y="904"/>
+  <use x="616" xlink:href="#index_icon" y="904"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="397" y="914">roles_sub_role_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="518" y="914">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="582" y="914">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="586" y="914"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="914">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="586" y="914">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="564" y="914">(</text>
+  <use x="616" xlink:href="#index_icon" y="920"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="397" y="930">role_name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="518" y="930">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="589" y="930">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="593" y="930"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="930">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="593" y="930">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="564" y="930">(</text>
+  <use x="604" xlink:href="#nullable_icon" y="936"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="397" y="946">role_description</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="518" y="946">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="596" y="946">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="600" y="946"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="568" y="946">2048</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="600" y="946">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="564" y="946">(</text>
+  <use x="616" xlink:href="#index_icon" y="952"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="397" y="962">role_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="518" y="962">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="564" y="962"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="564" y="962">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="397" y="978">role_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="518" y="978">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="582" y="978"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="582" y="978">  </text>
+  <use x="604" xlink:href="#nullable_icon" y="984"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="397" y="994">role_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="518" y="994">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="582" y="994"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="582" y="994">  </text>
+  <use x="604" xlink:href="#nullable_icon" y="1000"/>
+  <use x="616" xlink:href="#index_icon" y="1000"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="397" y="1010">role_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="518" y="1010">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="582" y="1010"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="582" y="1010">  </text>
+  <g Nm="RectGlyph">
+    <rect height="154.0" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="232.0" x="386.0" y="1068.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="232.0" x="386.0" y="1068.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(153, 153, 255);stroke:rgb(153, 153, 255);stroke-width:0.5;" width="232.0" x="386.0" y="1201.1"/>
+    <rect height="117.30000000000001" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="232.0" x="386.0" y="1096.8"/>
+  </g>
+  <use x="388" xlink:href="#table_icon" y="1076"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="449" y="1087">technology_per_role</text>
+  <use x="388" xlink:href="#pk_icon" y="1103"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="400" y="1114">tpr_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="509" y="1114">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="573" y="1114">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="577" y="1114"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="559" y="1114">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="577" y="1114">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="555" y="1114">(</text>
+  <use x="605" xlink:href="#fk_icon" y="1120"/>
+  <use x="593" xlink:href="#index_icon" y="1120"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="400" y="1130">ts_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="509" y="1130">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="573" y="1130">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="577" y="1130"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="559" y="1130">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="577" y="1130">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="555" y="1130">(</text>
+  <use x="605" xlink:href="#fk_icon" y="1136"/>
+  <use x="593" xlink:href="#index_icon" y="1136"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="400" y="1146">role_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="509" y="1146">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="573" y="1146">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="577" y="1146"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="559" y="1146">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="577" y="1146">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="555" y="1146">(</text>
+  <use x="593" xlink:href="#index_icon" y="1152"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="400" y="1162">tpr_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="509" y="1162">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="555" y="1162"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="555" y="1162">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="400" y="1178">tpr_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="509" y="1178">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="573" y="1178"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="573" y="1178">  </text>
+  <use x="581" xlink:href="#nullable_icon" y="1184"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="400" y="1194">tpr_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="509" y="1194">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="573" y="1194"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="573" y="1194">  </text>
+  <use x="581" xlink:href="#nullable_icon" y="1200"/>
+  <use x="593" xlink:href="#index_icon" y="1200"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="400" y="1210">tpr_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="509" y="1210">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="573" y="1210"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="573" y="1210">  </text>
+  <g Nm="RectGlyph">
+    <rect height="138.0" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="242.0" x="1555.0" y="930.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="242.0" x="1555.0" y="930.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="242.0" x="1555.0" y="1047.1"/>
+    <rect height="101.30000000000001" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="242.0" x="1555.0" y="958.8"/>
+  </g>
+  <use x="1557" xlink:href="#table_icon" y="938"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="1657" y="949">levels</text>
+  <use x="1557" xlink:href="#pk_icon" y="965"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1569" y="976">level_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1688" y="976">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="976">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1756" y="976"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1738" y="976">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1756" y="976">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1734" y="976">(</text>
+  <use x="1772" xlink:href="#index_icon" y="982"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1569" y="992">level_name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1688" y="992">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="992">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1756" y="992"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1738" y="992">30</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1756" y="992">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1734" y="992">(</text>
+  <use x="1772" xlink:href="#index_icon" y="998"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1569" y="1008">level_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1688" y="1008">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1734" y="1008"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1734" y="1008">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1569" y="1024">level_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1688" y="1024">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="1024"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="1024">  </text>
+  <use x="1760" xlink:href="#nullable_icon" y="1030"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1569" y="1040">level_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1688" y="1040">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="1040"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="1040">  </text>
+  <use x="1760" xlink:href="#nullable_icon" y="1046"/>
+  <use x="1772" xlink:href="#index_icon" y="1046"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1569" y="1056">level_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1688" y="1056">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="1056"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="1056">  </text>
+  <g Nm="RectGlyph">
+    <rect height="138.0" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="250.0" x="1171.0" y="694.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="250.0" x="1171.0" y="694.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="250.0" x="1171.0" y="811.1"/>
+    <rect height="101.30000000000001" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="250.0" x="1171.0" y="722.8"/>
+  </g>
+  <use x="1173" xlink:href="#table_icon" y="702"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="1243" y="713">configuration_levels</text>
+  <use x="1173" xlink:href="#pk_icon" y="729"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1185" y="740">cnf_lvl_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1312" y="740">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1376" y="740">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1380" y="740"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1362" y="740">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1380" y="740">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1358" y="740">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1185" y="756">cnf_lvl_name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1312" y="756">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1376" y="756">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1380" y="756"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1362" y="756">50</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1380" y="756">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1358" y="756">(</text>
+  <use x="1396" xlink:href="#index_icon" y="762"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1185" y="772">cnf_lvl_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1312" y="772">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1358" y="772"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1358" y="772">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1185" y="788">cnf_lvl_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1312" y="788">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1376" y="788"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1376" y="788">  </text>
+  <use x="1384" xlink:href="#nullable_icon" y="794"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1185" y="804">cnf_lvl_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1312" y="804">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1376" y="804"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1376" y="804">  </text>
+  <use x="1384" xlink:href="#nullable_icon" y="810"/>
+  <use x="1396" xlink:href="#index_icon" y="810"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1185" y="820">cnf_lvl_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1312" y="820">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1376" y="820"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1376" y="820">  </text>
+  <g Nm="RectGlyph">
+    <rect height="170.0" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="232.0" x="1561.0" y="679.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="232.0" x="1561.0" y="679.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="232.0" x="1561.0" y="828.1"/>
+    <rect height="133.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="232.0" x="1561.0" y="707.8"/>
+  </g>
+  <use x="1563" xlink:href="#table_icon" y="687"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="1617" y="698">configuration_per_level</text>
+  <use x="1563" xlink:href="#pk_icon" y="714"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1575" y="725">cpl_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1684" y="725">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1748" y="725">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="725"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1734" y="725">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="725">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1730" y="725">(</text>
+  <use x="1780" xlink:href="#fk_icon" y="731"/>
+  <use x="1768" xlink:href="#index_icon" y="731"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1575" y="741">cnf_lvl_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1684" y="741">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1748" y="741">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="741"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1734" y="741">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="741">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1730" y="741">(</text>
+  <use x="1780" xlink:href="#fk_icon" y="747"/>
+  <use x="1768" xlink:href="#index_icon" y="747"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1575" y="757">level_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1684" y="757">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1748" y="757">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="757"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1734" y="757">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1752" y="757">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1730" y="757">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1575" y="773">cpl_position</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1684" y="773">Integer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1725" y="773"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1725" y="773">  </text>
+  <use x="1768" xlink:href="#index_icon" y="779"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1575" y="789">cpl_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1684" y="789">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1730" y="789"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1730" y="789">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1575" y="805">cpl_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1684" y="805">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1748" y="805"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1748" y="805">  </text>
+  <use x="1756" xlink:href="#nullable_icon" y="811"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1575" y="821">cpl_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1684" y="821">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1748" y="821"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1748" y="821">  </text>
+  <use x="1756" xlink:href="#nullable_icon" y="827"/>
+  <use x="1768" xlink:href="#index_icon" y="827"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1575" y="837">cpl_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1684" y="837">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1748" y="837"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1748" y="837">  </text>
+  <g Nm="RectGlyph">
+    <rect height="218.0" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="243.0" x="814.0" y="913.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="243.0" x="814.0" y="913.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="243.0" x="814.0" y="1110.1"/>
+    <rect height="181.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="243.0" x="814.0" y="941.8"/>
+  </g>
+  <use x="816" xlink:href="#table_icon" y="921"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="882" y="932">domain_knowledge</text>
+  <use x="816" xlink:href="#pk_icon" y="948"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="828" y="959">dk_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="934" y="959">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="998" y="959">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="959"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="984" y="959">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="959">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="980" y="959">(</text>
+  <use x="1044" xlink:href="#fk_icon" y="965"/>
+  <use x="1032" xlink:href="#index_icon" y="965"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="828" y="975">tech_item_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="934" y="975">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="998" y="975">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="975"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="984" y="975">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="975">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="980" y="975">(</text>
+  <use x="1020" xlink:href="#nullable_icon" y="981"/>
+  <use x="1032" xlink:href="#index_icon" y="981"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="828" y="991">cnf_lvl_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="934" y="991">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="998" y="991">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="991"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="984" y="991">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="991">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="980" y="991">(</text>
+  <use x="1020" xlink:href="#nullable_icon" y="997"/>
+  <use x="1032" xlink:href="#index_icon" y="997"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="828" y="1007">level_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="934" y="1007">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="998" y="1007">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="1007"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="984" y="1007">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="1007">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="980" y="1007">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="828" y="1023">dk_domain</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="934" y="1023">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1005" y="1023">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1009" y="1023"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="984" y="1023">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1009" y="1023">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="980" y="1023">(</text>
+  <use x="1020" xlink:href="#nullable_icon" y="1029"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="828" y="1039">dk_weight</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="934" y="1039">Numeric</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1006" y="1039">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1010" y="1039"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="986" y="1039">3</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="999" y="1039">2</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1010" y="1039">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="982" y="1039">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="993" y="1039">, </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="828" y="1055">dk_topic</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="934" y="1055">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1012" y="1055">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1016" y="1055"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="984" y="1055">1024</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1016" y="1055">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="980" y="1055">(</text>
+  <use x="1032" xlink:href="#index_icon" y="1061"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="828" y="1071">dk_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="934" y="1071">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="980" y="1071"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="980" y="1071">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="828" y="1087">dk_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="934" y="1087">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="998" y="1087"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="998" y="1087">  </text>
+  <use x="1020" xlink:href="#nullable_icon" y="1093"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="828" y="1103">dk_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="934" y="1103">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="998" y="1103"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="998" y="1103">  </text>
+  <use x="1020" xlink:href="#nullable_icon" y="1109"/>
+  <use x="1032" xlink:href="#index_icon" y="1109"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="828" y="1119">dk_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="934" y="1119">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="998" y="1119"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="998" y="1119">  </text>
+  <g Nm="RectGlyph">
+    <rect height="186.0" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="251.0" x="1185.0" y="1158.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="251.0" x="1185.0" y="1158.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="251.0" x="1185.0" y="1323.1"/>
+    <rect height="149.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="251.0" x="1185.0" y="1186.8"/>
+  </g>
+  <use x="1187" xlink:href="#table_icon" y="1166"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="1239" y="1177">domain_questions_answers</text>
+  <use x="1187" xlink:href="#pk_icon" y="1193"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1199" y="1204">dqa_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1313" y="1204">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1377" y="1204">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1381" y="1204"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1363" y="1204">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1381" y="1204">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1359" y="1204">(</text>
+  <use x="1423" xlink:href="#fk_icon" y="1210"/>
+  <use x="1411" xlink:href="#index_icon" y="1210"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1199" y="1220">dk_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1313" y="1220">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1377" y="1220">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1381" y="1220"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1363" y="1220">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1381" y="1220">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1359" y="1220">(</text>
+  <use x="1423" xlink:href="#fk_icon" y="1226"/>
+  <use x="1411" xlink:href="#index_icon" y="1226"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1199" y="1236">dk_lvl_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1313" y="1236">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1377" y="1236">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1381" y="1236"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1363" y="1236">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1381" y="1236">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1359" y="1236">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1199" y="1252">dqa_question</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1313" y="1252">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1384" y="1252">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1388" y="1252"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1363" y="1252">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1388" y="1252">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1359" y="1252">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1199" y="1268">dqa_answer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1313" y="1268">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1391" y="1268">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1395" y="1268"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1363" y="1268">8192</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1395" y="1268">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1359" y="1268">(</text>
+  <use x="1411" xlink:href="#index_icon" y="1274"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1199" y="1284">dqa_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1313" y="1284">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1359" y="1284"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1359" y="1284">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1199" y="1300">dqa_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1313" y="1300">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1377" y="1300"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1377" y="1300">  </text>
+  <use x="1399" xlink:href="#nullable_icon" y="1306"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1199" y="1316">dqa_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1313" y="1316">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1377" y="1316"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1377" y="1316">  </text>
+  <use x="1399" xlink:href="#nullable_icon" y="1322"/>
+  <use x="1411" xlink:href="#index_icon" y="1322"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1199" y="1332">dqa_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1313" y="1332">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1377" y="1332"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1377" y="1332">  </text>
+  <g Nm="RectGlyph">
+    <rect height="202.0" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="235.0" x="1178.0" y="431.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="235.0" x="1178.0" y="431.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="235.0" x="1178.0" y="612.1"/>
+    <rect height="165.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="235.0" x="1178.0" y="459.8"/>
+  </g>
+  <use x="1180" xlink:href="#table_icon" y="439"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="1262" y="450">rating_scale</text>
+  <use x="1180" xlink:href="#pk_icon" y="466"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1192" y="477">rc_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1296" y="477">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1360" y="477">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1364" y="477"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1346" y="477">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1364" y="477">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1342" y="477">(</text>
+  <use x="1400" xlink:href="#fk_icon" y="483"/>
+  <use x="1388" xlink:href="#index_icon" y="483"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1192" y="493">cnf_lvl_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1296" y="493">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1360" y="493">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1364" y="493"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1346" y="493">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1364" y="493">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1342" y="493">(</text>
+  <use x="1388" xlink:href="#index_icon" y="499"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1192" y="509">rc_name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1296" y="509">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1360" y="509">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1364" y="509"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1346" y="509">80</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1364" y="509">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1342" y="509">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1192" y="525">rc_description</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1296" y="525">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1367" y="525">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1371" y="525"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1346" y="525">500</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1371" y="525">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1342" y="525">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1192" y="541">rc_value</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1296" y="541">Numeric</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1368" y="541">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1372" y="541"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1348" y="541">3</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1361" y="541">2</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1372" y="541">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1344" y="541">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1355" y="541">, </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1192" y="557">rc_position</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1296" y="557">Integer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1337" y="557"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1337" y="557">  </text>
+  <use x="1388" xlink:href="#index_icon" y="563"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1192" y="573">rc_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1296" y="573">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1342" y="573"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1342" y="573">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1192" y="589">rc_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1296" y="589">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1360" y="589"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1360" y="589">  </text>
+  <use x="1376" xlink:href="#nullable_icon" y="595"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1192" y="605">rc_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1296" y="605">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1360" y="605"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1360" y="605">  </text>
+  <use x="1376" xlink:href="#nullable_icon" y="611"/>
+  <use x="1388" xlink:href="#index_icon" y="611"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1192" y="621">rc_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1296" y="621">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1360" y="621"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1360" y="621">  </text>
+  <g Nm="RectGlyph">
+    <rect height="218.0" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="268.0" x="462.0" y="558.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="268.0" x="462.0" y="558.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="268.0" x="462.0" y="755.1"/>
+    <rect height="181.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="268.0" x="462.0" y="586.8"/>
+  </g>
+  <use x="464" xlink:href="#table_icon" y="566"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="559" y="577">assessments</text>
+  <use x="464" xlink:href="#pk_icon" y="593"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="476" y="604">asmt_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="607" y="604">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="604">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="675" y="604"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="657" y="604">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="675" y="604">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="653" y="604">(</text>
+  <use x="717" xlink:href="#fk_icon" y="610"/>
+  <use x="705" xlink:href="#index_icon" y="610"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="476" y="620">rpp_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="607" y="620">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="620">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="675" y="620"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="657" y="620">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="675" y="620">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="653" y="620">(</text>
+  <use x="717" xlink:href="#fk_icon" y="626"/>
+  <use x="705" xlink:href="#index_icon" y="626"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="476" y="636">user_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="607" y="636">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="636">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="675" y="636"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="657" y="636">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="675" y="636">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="653" y="636">(</text>
+  <use x="693" xlink:href="#nullable_icon" y="642"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="476" y="652">asmt_observations</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="607" y="652">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="685" y="652">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="689" y="652"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="657" y="652">8192</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="689" y="652">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="653" y="652">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="476" y="668">asmt_score</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="607" y="668">Numeric</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="679" y="668">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="683" y="668"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="659" y="668">3</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="672" y="668">2</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="683" y="668">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="655" y="668">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="666" y="668">, </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="476" y="684">asmt_start_date</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="607" y="684">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="684"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="684">  </text>
+  <use x="693" xlink:href="#nullable_icon" y="690"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="476" y="700">asmt_end_date</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="607" y="700">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="700"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="700">  </text>
+  <use x="705" xlink:href="#index_icon" y="706"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="476" y="716">asmt_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="607" y="716">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="653" y="716"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="653" y="716">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="476" y="732">asmt_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="607" y="732">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="732"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="732">  </text>
+  <use x="693" xlink:href="#nullable_icon" y="738"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="476" y="748">asmt_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="607" y="748">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="748"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="748">  </text>
+  <use x="693" xlink:href="#nullable_icon" y="754"/>
+  <use x="705" xlink:href="#index_icon" y="754"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="476" y="764">asmt_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="607" y="764">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="764"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="671" y="764">  </text>
+  <g Nm="RectGlyph">
+    <rect height="202.0" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="260.0" x="819.0" y="624.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="260.0" x="819.0" y="624.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="260.0" x="819.0" y="805.1"/>
+    <rect height="165.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="260.0" x="819.0" y="652.8"/>
+  </g>
+  <use x="821" xlink:href="#table_icon" y="632"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="878" y="643">domain_assessment_scores</text>
+  <use x="821" xlink:href="#pk_icon" y="659"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="833" y="670">das_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="956" y="670">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1020" y="670">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1024" y="670"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1006" y="670">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1024" y="670">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="670">(</text>
+  <use x="1066" xlink:href="#fk_icon" y="676"/>
+  <use x="1054" xlink:href="#index_icon" y="676"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="833" y="686">asmt_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="956" y="686">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1020" y="686">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1024" y="686"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1006" y="686">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1024" y="686">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="686">(</text>
+  <use x="1066" xlink:href="#fk_icon" y="692"/>
+  <use x="1054" xlink:href="#index_icon" y="692"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="833" y="702">dk_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="956" y="702">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1020" y="702">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1024" y="702"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1006" y="702">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1024" y="702">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="702">(</text>
+  <use x="1066" xlink:href="#fk_icon" y="708"/>
+  <use x="1054" xlink:href="#index_icon" y="708"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="833" y="718">cnf_lvl_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="956" y="718">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1020" y="718">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1024" y="718"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1006" y="718">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1024" y="718">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="718">(</text>
+  <use x="1042" xlink:href="#nullable_icon" y="724"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="833" y="734">das_observations</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="956" y="734">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1034" y="734">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1038" y="734"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1006" y="734">8192</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1038" y="734">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="734">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="833" y="750">das_score</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="956" y="750">Numeric</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1028" y="750">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1032" y="750"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1008" y="750">3</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1021" y="750">2</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1032" y="750">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1004" y="750">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1015" y="750">, </text>
+  <use x="1054" xlink:href="#index_icon" y="756"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="833" y="766">das_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="956" y="766">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="766"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1002" y="766">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="833" y="782">das_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="956" y="782">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1020" y="782"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1020" y="782">  </text>
+  <use x="1042" xlink:href="#nullable_icon" y="788"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="833" y="798">das_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="956" y="798">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1020" y="798"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1020" y="798">  </text>
+  <use x="1042" xlink:href="#nullable_icon" y="804"/>
+  <use x="1054" xlink:href="#index_icon" y="804"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="833" y="814">das_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="956" y="814">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1020" y="814"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1020" y="814">  </text>
+  <g Nm="RectGlyph">
+    <rect height="154.0" rx="8.32" ry="8.32" style="fill:rgb(255, 153, 153);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="229.0" x="753.0" y="297.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(255, 153, 153);stroke:rgb(255, 153, 153);stroke-width:0.5;" width="229.0" x="753.0" y="297.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(255, 153, 153);stroke:rgb(255, 153, 153);stroke-width:0.5;" width="229.0" x="753.0" y="430.1"/>
+    <rect height="117.30000000000001" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="229.0" x="753.0" y="325.8"/>
+  </g>
+  <use x="755" xlink:href="#table_icon" y="305"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="821" y="316">knowledge_gaps</text>
+  <use x="755" xlink:href="#pk_icon" y="332"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="767" y="343">kg_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="873" y="343">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="343">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="941" y="343"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="923" y="343">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="941" y="343">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="919" y="343">(</text>
+  <use x="969" xlink:href="#fk_icon" y="349"/>
+  <use x="957" xlink:href="#index_icon" y="349"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="767" y="359">asmt_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="873" y="359">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="359">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="941" y="359"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="923" y="359">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="941" y="359">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="919" y="359">(</text>
+  <use x="969" xlink:href="#fk_icon" y="365"/>
+  <use x="957" xlink:href="#index_icon" y="365"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="767" y="375">dk_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="873" y="375">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="375">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="941" y="375"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="923" y="375">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="941" y="375">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="919" y="375">(</text>
+  <use x="957" xlink:href="#index_icon" y="381"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="767" y="391">kg_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="873" y="391">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="919" y="391"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="919" y="391">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="767" y="407">kg_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="873" y="407">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="407"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="407">  </text>
+  <use x="945" xlink:href="#nullable_icon" y="413"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="767" y="423">kg_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="873" y="423">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="423"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="423">  </text>
+  <use x="945" xlink:href="#nullable_icon" y="429"/>
+  <use x="957" xlink:href="#index_icon" y="429"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="767" y="439">kg_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="873" y="439">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="439"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="439">  </text>
+  <g Nm="RectGlyph">
+    <rect height="170.0" rx="8.32" ry="8.32" style="fill:rgb(255, 153, 153);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="254.0" x="738.0" y="33.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(255, 153, 153);stroke:rgb(255, 153, 153);stroke-width:0.5;" width="254.0" x="738.0" y="33.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(255, 153, 153);stroke:rgb(255, 153, 153);stroke-width:0.5;" width="254.0" x="738.0" y="182.1"/>
+    <rect height="133.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="254.0" x="738.0" y="61.8"/>
+  </g>
+  <use x="740" xlink:href="#table_icon" y="41"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="806" y="52">knowledge_gap_notes</text>
+  <use x="740" xlink:href="#pk_icon" y="68"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="752" y="79">kgn_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="869" y="79">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="933" y="79">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="79"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="919" y="79">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="79">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="915" y="79">(</text>
+  <use x="979" xlink:href="#fk_icon" y="85"/>
+  <use x="967" xlink:href="#index_icon" y="85"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="752" y="95">user_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="869" y="95">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="933" y="95">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="95"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="919" y="95">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="95">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="915" y="95">(</text>
+  <use x="979" xlink:href="#fk_icon" y="101"/>
+  <use x="967" xlink:href="#index_icon" y="101"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="752" y="111">kg_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="869" y="111">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="933" y="111">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="111"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="919" y="111">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="937" y="111">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="915" y="111">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="752" y="127">kgn_observation</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="869" y="127">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="947" y="127">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="951" y="127"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="919" y="127">8192</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="951" y="127">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="915" y="127">(</text>
+  <use x="967" xlink:href="#index_icon" y="133"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="752" y="143">kgn_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="869" y="143">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="915" y="143"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="915" y="143">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="752" y="159">kgn_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="869" y="159">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="933" y="159"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="933" y="159">  </text>
+  <use x="955" xlink:href="#nullable_icon" y="165"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="752" y="175">kgn_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="869" y="175">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="933" y="175"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="933" y="175">  </text>
+  <use x="955" xlink:href="#nullable_icon" y="181"/>
+  <use x="967" xlink:href="#index_icon" y="181"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="752" y="191">kgn_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="869" y="191">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="933" y="191"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="933" y="191">  </text>
+  <g Nm="RectGlyph">
+    <rect height="170.0" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="246.0" x="1182.0" y="911.0"/>
+    <rect height="41.8" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="246.0" x="1182.0" y="911.0"/>
+    <rect height="20.9" rx="8.32" ry="8.32" style="fill:rgb(163, 245, 199);stroke:rgb(163, 245, 199);stroke-width:0.5;" width="246.0" x="1182.0" y="1060.1"/>
+    <rect height="133.29999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="246.0" x="1182.0" y="939.8"/>
+  </g>
+  <use x="1184" xlink:href="#table_icon" y="919"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="1237" y="930">domain_knowledge_levels</text>
+  <use x="1184" xlink:href="#pk_icon" y="946"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1196" y="957">dk_lvl_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1319" y="957">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1383" y="957">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1387" y="957"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1369" y="957">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1387" y="957">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1365" y="957">(</text>
+  <use x="1415" xlink:href="#fk_icon" y="963"/>
+  <use x="1403" xlink:href="#index_icon" y="963"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1196" y="973">dk_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1319" y="973">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1383" y="973">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1387" y="973"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1369" y="973">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1387" y="973">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1365" y="973">(</text>
+  <use x="1415" xlink:href="#fk_icon" y="979"/>
+  <use x="1403" xlink:href="#index_icon" y="979"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1196" y="989">cnf_lvl_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1319" y="989">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1383" y="989">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1387" y="989"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1369" y="989">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1387" y="989">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1365" y="989">(</text>
+  <use x="1415" xlink:href="#fk_icon" y="995"/>
+  <use x="1403" xlink:href="#index_icon" y="995"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1196" y="1005">level_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1319" y="1005">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1383" y="1005">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1387" y="1005"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1369" y="1005">26</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1387" y="1005">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1365" y="1005">(</text>
+  <use x="1403" xlink:href="#index_icon" y="1011"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1196" y="1021">dk_lvl_status</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1319" y="1021">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1365" y="1021"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1365" y="1021">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1196" y="1037">dk_lvl_created_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1319" y="1037">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1383" y="1037"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1383" y="1037">  </text>
+  <use x="1391" xlink:href="#nullable_icon" y="1043"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1196" y="1053">dk_lvl_updated_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1319" y="1053">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1383" y="1053"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1383" y="1053">  </text>
+  <use x="1391" xlink:href="#nullable_icon" y="1059"/>
+  <use x="1403" xlink:href="#index_icon" y="1059"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1196" y="1069">dk_lvl_deleted_at</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1319" y="1069">TimeStamp</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1383" y="1069"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1383" y="1069">  </text>
+  <g class="annotation">
+    <g class="frame" style="fill:none;stroke:rgb(128, 128, 128);stroke-width:.5;">
+      <rect height="1697" width="1817" x="2" y="2"/>
+      <rect height="26.0" rx="0.0" ry="0.0" style="fill:url(#annotation_gradient);stroke:rgb(128, 128, 128);stroke-width:0.25;" width="1817.0" x="2.0" y="1673.0"/>
+      <line x1="200" x2="200" y1="1673" y2="1699"/>
+      <line x1="400" x2="400" y1="1673" y2="1699"/>
+    </g>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(128, 128, 128);" x="10" y="1683">Diagram:</text>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(128, 128, 128);" x="210" y="1683">Created:</text>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(128, 128, 128);" x="410" y="1683">DbWrench Design:</text>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(64, 64, 64);" x="25" y="1695">all</text>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(64, 64, 64);" x="225" y="1695">23 Sep 2024 - 10:47:19 PM</text>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(64, 64, 64);" x="425" y="1695">newDb</text>
+  </g>
+</svg>
